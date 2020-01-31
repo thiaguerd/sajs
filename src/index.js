@@ -1,2 +1,2 @@
-import ba from './sa'
+import sa from './sa'
 import css from './file.css'
