@@ -1,5 +1,4 @@
-export default {  
-  sa: function (x) {  
-    alert('>> ' + x)
-  }  
+ba = function(x){
+	alert('>> '+x)
 }
+module.export = ba;
