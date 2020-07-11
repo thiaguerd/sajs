@@ -1,3 +1,7 @@
+SimpleAlert = {
+  bt_close_class: "",
+  bt_confirm_class: ""
+};
 var $ = require("jquery");
 require("jquery.transit");
 sa = function() {
@@ -8,10 +12,6 @@ sa = function() {
            .sort()
            .pop();
 	};
-  SimpleAlert = {
-    bt_close_class: "",
-    bt_confirm_class: ""
-  };
   var bt_close, bt_confirm, center, close_btn_bind, close_modal, disableScroll, enableScroll, gen_message, gen_modal, gen_title, generate_random_id, h, index, keys, modal, open_modal, preventDefault, preventDefaultForScrollKeys, process_hash, resize_btns, shadow, show_shadow;
   index = maxZIndex();
   keys = {
@@ -239,4 +239,5 @@ sa = function() {
   });
   return null;
 }
+module.export = SimpleAlert;
 module.export = sa;
