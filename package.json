@@ -19,7 +19,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "jquery.transit": "^0.9.12"
   }
 }
