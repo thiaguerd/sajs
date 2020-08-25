@@ -1,6 +1,6 @@
 {
   "name": "sajs",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "simple alert",
   "main": "src/index.js",
   "scripts": {
@@ -19,7 +19,7 @@
     "webpack-cli": "^3.3.10"
   },
   "dependencies": {
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.1",
     "jquery.transit": "^0.9.12"
   }
 }

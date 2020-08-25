@@ -15,24 +15,24 @@ import sa from 'sajs'
 The basic:
 
 ```javascript
-ba("This is a message!")
+sa("This is a message!")
 ```
 Call alert with title and message:
 
 ```javascript
-ba("Hello!","This is a message!")
+sa("Hello!","This is a message!")
 ```
 Callbacks functions:
 
 ```javascript
-ba({
+sa({
 	title: "You are sure?",
 	message: "You want delete this post?",
 	onConfirm: function(){
-		ba("Your post has been deleted.")
+		sa("Your post has been deleted.")
 	},
 	onClose: function(){
-		ba("Your post is safe :)")
+		sa("Your post is safe :)")
 	}
 })
 ```
@@ -40,7 +40,7 @@ ba({
 Add class to butons:
 
 ```javascript
-ba({
+sa({
 	message: "Adding css class to butons",
 	closeClass: "btn_blue",
 	confirmClass: "btn_red"
@@ -50,7 +50,7 @@ ba({
 Change text from buttons
 
 ```javascript
-ba({
+sa({
 	message: "Custom text",
 	confirmText: "don't confirm that!",
 	closeText: "close is safe"
@@ -60,7 +60,7 @@ ba({
 Click on shadow to close alert
 
 ```javascript
-ba({
+sa({
 	message: "Click on shadow to close",
 	closeOnClickShadow: true
 })
